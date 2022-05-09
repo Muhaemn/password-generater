@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generater</title>
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <div class="warpper">
+      <header>Password Generater</header>
+      <div class="grid">
+        <div class="input">
+          <input
+            type="text"
+            class="text"
+            id="length"
+            placeholder="Enter the length"
+            required
+          />
+        </div>
+        <div class="input">
+          <div class="check">
+            <label for="checknum" class="checki"></label>
+            <input type="checkbox" name="checki" id="checknum" required />
+            <label for="checknum"><p>Numbers</p></label>
+          </div>
+          <div class="check">
+            <label for="checkA" class="checki"></label>
+            <input type="checkbox" name="checki" id="checkA" required />
+            <label for="checkA"><p>Capital letters</p></label>
+          </div>
+          <div class="check">
+            <label for="checka" class="checki"></label>
+            <input type="checkbox" name="checki" id="checka" required />
+            <label for="checka"><p>Small letters</p></label>
+          </div>
+          <div class="check">
+            <label for="checkS" class="checki"></label>
+            <input type="checkbox" name="checki" id="checkS" required />
+            <label for="checkS"><p>Symbols</p></label>
+          </div>
+        </div>
+        <div class="input pass" id="pass">your password</div>
+        <button type="submit" class="btn" id="btn">Generate</button>
+      </div>
+    </div>
+    <script src="test.js"></script>
+  </body>
+</html>

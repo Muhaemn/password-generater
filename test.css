@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.warpper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  border: 2px solid rgb(0, 154, 214);
+  border-radius: 15px;
+  padding: 20px;
+}
+header {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+*::selection {
+  background: rgb(0, 154, 214);
+  color: white;
+}
+.input {
+  position: relative;
+}
+.input .text {
+  width: 100%;
+  height: 42px;
+  padding: 10px 25px 10px 10px;
+  border: 2px solid rgb(0, 154, 214);
+  border-radius: 50px;
+  font-size: 13px;
+  transition: all 0.3s;
+}
+.input .check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.checki {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 2px solid rgb(0, 154, 214);
+  transition: all 0.3s;
+}
+input[type="checkbox"] {
+  display: none;
+}
+.checked {
+  background-color: rgb(0, 154, 214);
+}
+.input input:focus {
+  outline: none;
+  font-size: 13.5px;
+}
+.btn {
+  cursor: pointer;
+  color: rgb(0, 154, 214);
+  background-color: transparent;
+  border: 2px solid rgb(0, 154, 214);
+  border-radius: 50px;
+  padding: 10px 20px;
+  letter-spacing: 1.5px;
+  transition: all 0.3s;
+  font-weight: 800;
+  text-align: center;
+}
+.btn:hover,
+.btn:focus {
+  color: white;
+  background-color: rgb(0, 154, 214);
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  grid-template-rows: 1fr;
+}
+.pass {
+  width: 100%;
+  height: 45px;
+  border: 2px solid rgb(0, 154, 214);
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+}
